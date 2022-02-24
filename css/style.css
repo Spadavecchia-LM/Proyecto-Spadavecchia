@@ -8,6 +8,7 @@
         font-family: Arial, Helvetica, sans-serif;
 
     }
+
     .container-header{
 
         display: grid;
@@ -128,6 +129,15 @@ justify-content: flex-end;
     -webkit-text-stroke: 0.5px rgb(255, 255, 255);
 
 
+}
+.animate__animated.animate__zoomIn{
+    animation-duration: 2s;
+}
+.animate__animated.animate__flip{
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+
+   
 }
 .index-img{
  display: grid;
