@@ -450,3 +450,11 @@ img.btn-whatsapp {
    
 }
 /* fin medias queries pagina contacto */
+/* estilos bootstrap */
+.nav-link:hover{
+font-weight: bold;
+color: black;
+background-color: rgba(0,0,0,0.2);
+transition-delay: 0.125s;
+
+}
