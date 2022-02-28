@@ -22,4 +22,16 @@ header{
     transform: scale(1.2);
 
 }
+.texto-borde{
+    -webkit-text-stroke: 2px black;
+    color: white; 
+  }
+  #galeria{
+      margin: 0 !important;
+      padding: 20px;
+  }
+  .img-hover:hover{
+      transform: scale(1.5);
+  }
+
 
