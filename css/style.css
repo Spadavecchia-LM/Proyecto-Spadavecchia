@@ -1,10 +1,45 @@
+
 .nav-link:hover{
     font-weight: bold;
     font-size: 110%;
 }
+
 header{
     font-size: 120%;
+    box-shadow:0 4px 5px -2px gray;
 }
+.index-stroke{
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+    font-family: 'Alfa Slab One', cursive;
+    
+
+}
+.index-stroke-h1{
+    font-size: 70px;
+}
+.index-stroke-p{
+    font-size: 40px;
+}
+.fortalezas{
+    padding: 200px 0px;
+
+}
+
+
+
+.bi-index:hover{
+    transform: scale(1.5);
+    transition-delay: 0.1s;
+    box-shadow:0 10px 20px -2px gray;
+
+
+}
+.footer-margin-wmain{
+    margin-top: 200px;
+}
+
 .bi.bi-whatsapp:hover{
     transform: scale(1.2);
     color: rgb(71, 238, 71);
@@ -35,3 +70,8 @@ header{
   }
 
 
+@media (max-width:583px){
+    .index-stroke-h1{
+        display: none;
+    }
+}
