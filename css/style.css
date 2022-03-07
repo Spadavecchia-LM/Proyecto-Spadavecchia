@@ -1,4 +1,3 @@
-
 .nav-link:hover{
     font-weight: bold;
     font-size: 110%;
@@ -6,7 +5,7 @@
 
 header{
     font-size: 120%;
-    box-shadow:0 4px 5px -2px gray;
+    border-bottom: 3px  solid rgba(0,0,0,0.2);
 }
 .index-stroke{
     color: black;
@@ -23,6 +22,31 @@ header{
     -webkit-text-stroke: 0.5px rgb(255, 255, 255);
 
 }
+.carousel-item-index1{
+    background-image: url("/ROOT/images/imagenes-inicio/75534-oficinas.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    max-width: auto;
+}
+.carousel-item-index2{
+    background-image: url("/ROOT/images/imagenes-inicio/racks.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    max-width: auto;
+}
+.carousel-item-index3{
+    background-image: url("/ROOT/images/imagenes-inicio/bg-autoelevadores.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    max-width: auto;
+}
+
 .card-size{
 max-width: 100%;}
 .card-size img{
@@ -65,12 +89,7 @@ box-shadow: 0px 10px 50px -3px rgba(0,0,0,0.5);
       padding: 20px;
   }
   .img-hover:hover{
-      transform: scale(1.5);
+      transform: scale(1.3);
   }
 
 
-@media (max-width:583px){
-    .index-stroke-h1{
-        display: none;
-    }
-}
