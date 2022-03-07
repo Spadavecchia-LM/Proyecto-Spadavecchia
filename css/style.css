@@ -22,30 +22,6 @@ header{
     -webkit-text-stroke: 0.5px rgb(255, 255, 255);
 
 }
-.carousel-item-index1{
-    background-image: url("/ROOT/images/imagenes-inicio/75534-oficinas.jpg");
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    max-width: auto;
-}
-.carousel-item-index2{
-    background-image: url("/ROOT/images/imagenes-inicio/racks.jpg");
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    max-width: auto;
-}
-.carousel-item-index3{
-    background-image: url("/ROOT/images/imagenes-inicio/bg-autoelevadores.jpg");
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    max-width: auto;
-}
 
 .card-size{
 max-width: 100%;}
