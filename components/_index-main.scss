@@ -1,0 +1,33 @@
+main{
+    background: $colorBody;
+}
+
+
+
+
+
+.index-stroke{
+    color: black;
+
+}
+.index-stroke-h1{
+    font-size: 70px;
+    color: white;
+@extend .textShadow;
+}
+.index-stroke-p{
+    font-size: 40px;
+    color:white;
+    @extend .textShadow;
+}
+
+.card-size{
+max-width: 100%;}
+.card-size img{
+    height: 92px;
+    width: auto;
+}
+.padding-section{
+    margin-top: 200px;
+   
+} 

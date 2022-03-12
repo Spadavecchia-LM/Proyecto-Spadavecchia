@@ -1,0 +1,21 @@
+.contactoGlobal{
+    font-size: $textMedium;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    input{
+        font-size: $textBase;
+    }
+    .select{
+        font-size: $textBase;
+    }
+    .btn{
+        font-size: $textBase;
+        background-color: $colorDarkBlue;
+        border: 0;
+    }
+}
+
+.hero-body{
+    @extend .textShadow;
+}
