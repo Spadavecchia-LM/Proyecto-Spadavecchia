@@ -1,3 +1,5 @@
 aside{
-    background-color: $colorLightBlue;
+    background-color: $colorDarkBlue;
+    @include sizes (100%, 20rem);
+
 }

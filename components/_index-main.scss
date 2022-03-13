@@ -1,10 +1,7 @@
 main{
     background: $colorBody;
+
 }
-
-
-
-
 
 .index-stroke{
     color: black;
@@ -21,13 +18,15 @@ main{
     @extend .textShadow;
 }
 
-.card-size{
-max-width: 100%;}
-.card-size img{
-    height: 92px;
-    width: auto;
-}
 .padding-section{
     margin-top: 200px;
    
 } 
+.card-size{
+    @include sizes (auto,15rem);
+
+    img{
+        @include sizes (auto,9.2rem);
+
+    }
+}

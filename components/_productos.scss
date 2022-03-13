@@ -1,0 +1,41 @@
+.catalogoGlobal{
+    background-color: $colorBody;
+    font-size: $textBase;
+}
+
+
+.card{
+    box-shadow: 0px 10px 50px -3px rgba(0,0,0,0.5);
+    background-color: $colorLightBlue;
+ 
+    &-body{
+        text-align: center;
+    }
+}
+
+.heroGin{
+    background-image: url(../images/imagenes-catalogo/gintonic.jpg);
+    @extend .heroOscurecido;
+    margin-bottom: 10rem;
+
+}
+
+.heroWhisky{
+    background-image: url(../images/imagenes-catalogo/whiky.jfif);
+    @extend .heroOscurecido;
+    margin-bottom: 10rem;
+
+}
+
+.heroAperitivos{
+    background-image: url(../images/imagenes-catalogo/aperitivos.jpg);
+    @extend .heroOscurecido;
+    margin-bottom: 10rem;
+
+}
+
+.heroSpirits{
+    background-image: url(../images/imagenes-catalogo/spirits.jpg);
+    @extend .heroOscurecido;
+    margin-bottom: 10rem;
+}

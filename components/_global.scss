@@ -13,6 +13,36 @@ html{
 
 }
 
+    .heroOscurecido{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120rem;
+    
+    
+        h1{
+            position: relative;
+        }
+    
+        &::before{
+            content: "";
+            position: absolute;
+            background-color: black;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            opacity: 0.6;
+        
+        }
+    }
+    
+
+
 @mixin titulos ($color, $paddingTB) {
     font-size: $textLarge;
     padding: $paddingTB 0;
@@ -21,17 +51,31 @@ html{
 }
 
 @mixin sizes ($width, $height){
-    height: $height;
     width: $width;
+    height: $height;
+    margin: 0;
+    padding: 0;
 }
 
 @each $heading, $textTransform in (h1: uppercase){
     #{$heading}{
         text-transform: $textTransform;
+        @extend .textShadow;
+        color: $colorRed;
+        font-size: 30rem;
     }
 }
 
- 
+$mapRedes : (fb-color:#4267B2, inst-color: #F77737, tw-color: #1DA1F2, wpp-color:#25D366);
+
+@each $redes, $color in $mapRedes {
+    .#{$redes}{
+        color: $color;
+    }
+    
+}
+
+
      
 
 
