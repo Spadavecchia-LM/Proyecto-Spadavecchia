@@ -61,7 +61,6 @@ html{
     #{$heading}{
         text-transform: $textTransform;
         color: $colorRed;
-        @include titulos($colorRed, 2rem, 50rem);
     }
 }
 
