@@ -43,8 +43,8 @@ html{
     
 
 
-@mixin titulos ($color, $paddingTB) {
-    font-size: $textLarge;
+@mixin titulos ($color, $paddingTB, $fontSize) {
+    font-size: $fontSize;
     padding: $paddingTB 0;
     color: $color;
     @extend .textShadow;
@@ -60,9 +60,8 @@ html{
 @each $heading, $textTransform in (h1: uppercase){
     #{$heading}{
         text-transform: $textTransform;
-        @extend .textShadow;
         color: $colorRed;
-        font-size: 30rem;
+        @include titulos($colorRed, 2rem, 50rem);
     }
 }
 
