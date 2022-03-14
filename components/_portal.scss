@@ -1,0 +1,17 @@
+.portalFontSize{
+    font-size: $textBase;
+    @include sizes (100%, 70rem);
+    margin: 0;
+
+    input{
+        font-size: $textBase;
+    }
+
+    button{
+        font-size: $textBase + 0.3;
+        background-color: $colorDarkBlue;
+        border: 0;
+        border-radius: 1rem;
+    }
+}
+
