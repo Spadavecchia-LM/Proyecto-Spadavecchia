@@ -13,10 +13,15 @@
     }
 }
 
+.heroH1Size{
+    font-size: 5rem;
+}
+
 .heroGin{
     background-image: url(../images/imagenes-catalogo/gintonic.jpg);
     @extend .heroOscurecido;
     margin-bottom: 10rem;
+    
 
 }
 

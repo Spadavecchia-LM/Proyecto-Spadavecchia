@@ -21,11 +21,13 @@ html{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 120rem;
+        height: 100rem;
+      
     
     
         h1{
             position: relative;
+            width: 100vw;
         }
     
         &::before{
@@ -43,26 +45,22 @@ html{
     
 
 
-@mixin titulos ($color, $paddingTB, $fontSize) {
-    font-size: $fontSize;
-    padding: $paddingTB 0;
-    color: $color;
-    @extend .textShadow;
-}
 
 @mixin sizes ($width, $height){
     width: $width;
     height: $height;
-    margin: 0;
-    padding: 0;
 }
 
-@each $heading, $textTransform in (h1: uppercase){
+@each $heading, $textTransform, $textSize in (h1: uppercase){
     #{$heading}{
         text-transform: $textTransform;
         color: $colorRed;
+        @extend .textShadow;
     }
 }
+
+
+
 
 $mapRedes : (fb-color:#4267B2, inst-color: #F77737, tw-color: #1DA1F2, wpp-color:#25D366);
 
