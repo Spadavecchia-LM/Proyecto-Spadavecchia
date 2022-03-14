@@ -2,6 +2,74 @@ main{
     background: $colorBody;
 
 }
+.clark{
+    background-image: url("https://res.cloudinary.com/leoms96/image/upload/v1647271004/Distri%20itati/imagenes-inicio/bg-autoelevadores_ccojiu.jpg");
+    @extend .carouselImg;
+    
+   h1,p{
+       position: relative;
+   
+   }
+
+    &::before{
+        content: "";
+        position: absolute;
+        background-color: black;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        opacity: 0.4;
+
+    }
+}
+.oficinas{
+    background-image: url("https://res.cloudinary.com/leoms96/image/upload/v1647271004/Distri%20itati/imagenes-inicio/75534-oficinas_gdn0bg.jpg");
+    @extend .carouselImg;
+
+    h1,p{
+        position: relative;
+    
+    }
+ 
+     &::before{
+         content: "";
+         position: absolute;
+         background-color: black;
+         top: 0;
+         bottom: 0;
+         right: 0;
+         left: 0;
+         opacity: 0.4;
+ 
+     }
+ }
+ 
+  
+
+.racks{
+    background-image: url("https://res.cloudinary.com/leoms96/image/upload/v1647271005/Distri%20itati/imagenes-inicio/racks_eebmkv.jpg");
+    @extend .carouselImg;
+
+    h1,p{
+        position: relative;
+    
+    }
+ 
+     &::before{
+         content: "";
+         position: absolute;
+         background-color: black;
+         top: 0;
+         bottom: 0;
+         right: 0;
+         left: 0;
+         opacity: 0.4;
+ 
+     }
+ }
+ 
+
 
 .index-stroke{
     color: black;
@@ -22,6 +90,15 @@ main{
     margin-top: 200px;
    
 } 
+
+.card-body{
+  padding: 0;
+  .card-text{
+      font-size: $textBase;
+      color: $colorDarkBlue;
+      font-weight: bold;
+  }
+}
 .card-size{
     @include sizes (auto,15rem);
 

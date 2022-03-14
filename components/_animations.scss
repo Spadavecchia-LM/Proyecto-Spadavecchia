@@ -16,7 +16,8 @@
 
 }
 .card:hover{
-    transform: scale(1.2);
+    transition-delay: 0.15s;
+    border: 1rem solid transparent;
     
     }
     

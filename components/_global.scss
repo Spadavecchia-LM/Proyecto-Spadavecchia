@@ -12,6 +12,14 @@ html{
     text-shadow: 0.2rem 0.2rem 1rem #000000;
 
 }
+.carouselImg{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    text-align: center;
+    position: relative;
+}
 
     .heroOscurecido{
         background-size: cover;
@@ -42,6 +50,7 @@ html{
         
         }
     }
+
     
 
 
@@ -51,7 +60,7 @@ html{
     height: $height;
 }
 
-@each $heading, $textTransform, $textSize in (h1: uppercase){
+@each $heading, $textTransform in (h1: uppercase){
     #{$heading}{
         text-transform: $textTransform;
         color: $colorRed;
