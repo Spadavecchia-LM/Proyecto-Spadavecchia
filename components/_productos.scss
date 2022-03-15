@@ -13,34 +13,49 @@
     }
 }
 
+.gallery{
+    background-color: $colorLightBlue;
+    padding: 8rem 0;
+
+    .galleryItem{
+        padding: 0.5rem;
+        background-color: $colorBody;
+        width: 100%;
+        box-shadow: 0 0 1.5rem rgba(0,0,0,0.3);
+    
+    }
+}
+
+
+
 .heroH1Size{
     font-size: 5rem;
 }
 
 .heroGin{
-    background-image: url(../images/imagenes-catalogo/gintonic.jpg);
+    background-image: url("https://res.cloudinary.com/leoms96/image/upload/v1647271005/Distri%20itati/imagenes-catalogo/gintonic_nzdsvl.webp");
     @extend .heroOscurecido;
-    margin-bottom: 10rem;
+    padding-bottom: 10rem;
     
 
 }
 
 .heroWhisky{
-    background-image: url(../images/imagenes-catalogo/whiky.jfif);
+    background-image: url("https://res.cloudinary.com/leoms96/image/upload/c_scale,w_1024/v1647271003/Distri%20itati/imagenes-catalogo/whiky_ildroa.webp");
     @extend .heroOscurecido;
-    margin-bottom: 10rem;
+    padding-bottom: 10rem;
 
 }
 
 .heroAperitivos{
-    background-image: url(../images/imagenes-catalogo/aperitivos.jpg);
+    background-image: url("https://res.cloudinary.com/leoms96/image/upload/c_scale,w_1024/v1647271003/Distri%20itati/imagenes-catalogo/aperitivos_jknzwl.webp");
     @extend .heroOscurecido;
-    margin-bottom: 10rem;
+    padding-bottom: 10rem;
 
 }
 
 .heroSpirits{
-    background-image: url(../images/imagenes-catalogo/spirits.jpg);
+    background-image: url("https://res.cloudinary.com/leoms96/image/upload/c_scale,w_1024/v1647388314/Distri%20itati/imagenes-catalogo/spirits_dzacff.webp");
     @extend .heroOscurecido;
-    margin-bottom: 10rem;
+    padding-bottom: 10rem;
 }
