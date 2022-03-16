@@ -103,3 +103,22 @@ color: white;
 
     }
 }
+
+@media (max-width:531px){
+    .index-stroke-h1{
+        font-size: 5rem;
+    }
+    .index-stroke-p{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:375px){
+    .index-stroke-h1{
+        font-size: 3.5rem;
+    }
+    .index-stroke-p{
+        font-size: 1.5rem;
+    }
+
+}
