@@ -15,9 +15,11 @@
     transform: scale(1.2);
 
 }
+    
 .card:hover{
+    transform: scale(1.03);
     transition-delay: 0.15s;
-    border: 1rem solid transparent;
-    
-    }
-    
+    box-shadow: 0 0 1rem gray;
+    cursor: pointer;
+
+}

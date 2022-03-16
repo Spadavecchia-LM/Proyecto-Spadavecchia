@@ -87,8 +87,15 @@ color: white;
    
 } 
 
+.card{
+    background-color: $colorBody;
+
+}
+
 .card-body{
   padding: 0;
+  text-align: center;
+
   .card-text{
       font-size: $textBase;
       color: $colorDarkBlue;
@@ -103,6 +110,7 @@ color: white;
 
     }
 }
+
 
 @media (max-width:531px){
     .index-stroke-h1{
