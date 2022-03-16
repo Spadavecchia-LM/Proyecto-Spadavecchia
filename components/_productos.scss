@@ -14,17 +14,39 @@
 }
 
 .gallery{
-    background-color: $colorLightBlue;
+    background-color: $colorMiddleBlue;
     padding: 8rem 0;
 
     .galleryItem{
         padding: 0.5rem;
-        background-color: $colorBody;
         width: 100%;
         box-shadow: 0 0 1.5rem rgba(0,0,0,0.3);
-    
+        background-color: $colorBody;
+
+        &:hover{
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        animation: gradient 7s ease infinite;
+        background-size: 400% 400%;
+        cursor: pointer;
+        transform: scale(1.01);
+        transition-delay: 0.12s;
+        }
+        
     }
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 
 
