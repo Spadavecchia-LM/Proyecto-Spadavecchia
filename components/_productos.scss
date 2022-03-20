@@ -5,7 +5,7 @@
 
 .gallery{
     background-color: $colorMiddleBlue;
-    padding: 8rem 0;
+    padding: 8rem 0 !important;
 
     .galleryItem{
         padding: 0.5rem;
@@ -54,7 +54,6 @@
 .heroGin{
     background-image: url("https://res.cloudinary.com/leoms96/image/upload/v1647271005/Distri%20itati/imagenes-catalogo/gintonic_nzdsvl.webp");
     @extend .heroOscurecido;
-    
 
 }
 
@@ -78,12 +77,16 @@
 .heroAlimentos{
     @extend .heroOscurecido;
     background-image: url("https://res.cloudinary.com/leoms96/image/upload/c_scale,w_1024/v1647558056/Distri%20itati/imagenes-catalogo/alimentos-desayunar-1_o1opet.webp");
+
 }
 .heroLimpieza{
     @extend .heroOscurecido;
     background-image: url("https://res.cloudinary.com/leoms96/image/upload/c_scale,w_1024/v1647558597/Distri%20itati/imagenes-catalogo/dirt-g90bdc0839_1280_eqsuc7.webp");
+
 }
 .heroVinos{
     @extend .heroOscurecido;
     background-image: url("https://res.cloudinary.com/leoms96/image/upload/c_scale,w_1024/v1647557180/Distri%20itati/imagenes-catalogo/vinos_vk43ie.webp");
+
 }
+
